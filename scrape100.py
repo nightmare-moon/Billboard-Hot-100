@@ -1,4 +1,4 @@
-'''Bilboard 100 scraper'''
+'''Billboard 100 scraper'''
 from bs4 import BeautifulSoup
 import requests
 SOURCE = requests.get('https://www.billboard.com/charts/hot-100').text
